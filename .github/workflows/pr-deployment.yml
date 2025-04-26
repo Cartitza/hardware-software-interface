@@ -40,6 +40,7 @@ jobs:
 
       - name: Load Image
         run: |
+          bundle install
           mkdir -p ${{ github.event.number }}
           docker image list
           docker run -v $GITHUB_WORKSPACE/repo:/usr/src/app hardware-software-interface-${{ github.event.number }}:latest

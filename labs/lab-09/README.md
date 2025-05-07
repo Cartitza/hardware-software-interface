@@ -56,3 +56,6 @@ If the `git status` output differs, follow the [instructions to save your progre
     student@hsi:~/hardware-software-interface$ git checkout -b lab-09 main  # Replace lab-09 with lab number
     student@hsi:~/hardware-software-interface$ git pull origin main        # Get latest changes from origin/main
     ```
+
+2.
+Test

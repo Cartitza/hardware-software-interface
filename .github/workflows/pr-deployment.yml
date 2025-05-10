@@ -44,7 +44,7 @@ jobs:
           docker image list
           docker run -v $GITHUB_WORKSPACE/repo:/usr/src/app \
             hardware-software-interface-${{ github.event.number }}:latest bundle install
-          docker run -v $GITHUB_WORKSPACE/repo:/usr/src/app hardware-software-interface-${{ github.event.number }}:latest
+          docker run -d -v $GITHUB_WORKSPACE/repo:/usr/src/app hardware-software-interface-${{ github.event.number }}:latest
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus

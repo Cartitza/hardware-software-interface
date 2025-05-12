@@ -1,0 +1,22 @@
+# SPDX-License-Identifier: CC BY-SA 4.0
+
+title: HSI
+remote_theme: just-the-docs/just-the-docs
+repository: cs-pub-ro/hardware-software-interface
+
+exclude:
+  - README.md
+  - REVIEWING.md
+
+plugins:
+  - jekyll-titles-from-headings
+  - jekyll-seo-tag
+
+callouts:
+  warning:
+    title: warning
+    color: yellow
+  tip:
+    title: tip
+    color: green
+baseurl: /hardware-software-interface/12/
